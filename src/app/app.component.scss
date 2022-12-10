@@ -1,60 +1,3 @@
-header
-{
-	background: linear-gradient(270deg, #CFAB55 0%, #CBA252 50%, #976118 100%);
-}
-
-.Navigation_Items
-{
-	margin: 0;
-	list-style-type: none;
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
-	padding: 2rem 4rem;
-	justify-content: space-between;
-}
-
-.Navigation_Item
-{
-	font-weight: bold;
-	color: #FFFFFF;
-	font-size: 2rem;
-}
-
-.Navigation_Item_URL
-{
-	color: #FFFFFF;
-	font-weight: bold;
-}
-
-.Navigation_Item_URL:link
-{
-	color: #FFFFFF;
-	font-weight: bold;
-	text-decoration-line: none;
-}
-
-.Navigation_Item_URL:visited
-{
-	color: #FFFFFF;
-	font-weight: bold;
-	text-decoration-line: none;
-}
-
-.Navigation_Item_URL:hover
-{
-	color: #FFFFFF;
-	font-weight: bold;
-	text-decoration-line: none;
-}
-
-.Navigation_Item_URL:active
-{
-	color: #FFFFFF;
-	font-weight: bold;
-	text-decoration-line: none;
-}
-
 .About_Me_Section
 {
 	display: flex;
@@ -78,6 +21,7 @@ header
 .Information_Section_Text
 {
 	color: #FFFFFF;
+	padding-top: 2rem;
 }
 
 .Information_Section_Header_2
