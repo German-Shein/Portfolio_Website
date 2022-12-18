@@ -1,6 +1,15 @@
 header
 {
-	background: linear-gradient(270deg, #CFAB55 0%, #CBA252 50%, #976118 100%);
+    position: relative;
+}
+
+.Navigation_Bar
+{
+    background: linear-gradient(270deg, #CFAB55 0%, #CBA252 50%, #976118 100%);
+    box-shadow: 0px 0px 24px 16px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    width: 100%;
+    z-index: 2;
 }
 
 .Navigation_Items
@@ -53,4 +62,14 @@ header
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration-line: none;
+}
+
+.Ornaments
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    top: 5rem;
 }
