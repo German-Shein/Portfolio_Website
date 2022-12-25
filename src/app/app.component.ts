@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent 
 {
-    View: string = "About Me"
+	View: string = "About Me"
 
 	Select_Active_View (View: string): void
 	{
