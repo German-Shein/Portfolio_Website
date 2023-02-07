@@ -3,7 +3,7 @@ import { Component, Input, OnInit } from "@angular/core";
 @Component ({
 	selector: "crown-ornament",
 	templateUrl: "./Crown.component.svg",
-	styles: ["svg {width: inherit; height: inherit;}"]
+	styles: []
 })
 
 export class Crown_Ornament_Component implements OnInit
