@@ -29,6 +29,26 @@ header
 	color: #FFFFFF;
     cursor: pointer;
 	font-size: 1.5rem;
+	transition: transform 375ms;
+}
+
+.Navigation_Item:hover
+{
+	color: #03180E;
+	transform: scale(1.1);
+	text-decoration: underline;
+}
+
+@keyframes Hovering 
+{
+	0% 
+	{ 
+
+	}
+	100% 
+	{
+		
+	}
 }
 
 .Navigation_Item_URL

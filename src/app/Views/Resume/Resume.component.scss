@@ -2,3 +2,10 @@
 {
     padding: 4rem;
 }
+
+.General_Information
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    grid-gap: 2rem;
+}
