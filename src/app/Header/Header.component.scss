@@ -34,21 +34,8 @@ header
 
 .Navigation_Item:hover
 {
-	color: #03180E;
 	transform: scale(1.1);
 	text-decoration: underline;
-}
-
-@keyframes Hovering 
-{
-	0% 
-	{ 
-
-	}
-	100% 
-	{
-		
-	}
 }
 
 .Navigation_Item_URL
@@ -93,4 +80,5 @@ header
     justify-content: space-between;
     width: 100%;
     top: 5rem;
+	z-index: 1;
 }
