@@ -1,5 +1,6 @@
 <header-component (Select_Active_View_Event)="Select_Active_View ($event)"></header-component>
 <div class="View">
+    <ux-ui-design-component *ngIf="View === 'UX/UI Design'"></ux-ui-design-component>
     <resume-component *ngIf="View === 'Résumé'"></resume-component>
 	<about-me-component *ngIf="View === 'About Me'"></about-me-component>
 </div>

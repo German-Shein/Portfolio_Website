@@ -14,9 +14,10 @@ import { Crown_Ornament_Component } from './Ornaments/Crown/Crown.component';
 import { Bottom_Corner_Ornament_Component } from './Ornaments/Bottom_Corner/Bottom_Corner.component';
 import { Footer_Component } from './Footer/Footer.component';
 import { Resume_Component } from './Views/Resume/Resume.component';
+import { UX_UI_Design_Component } from './Views/UX_UI_Design/UX_UI_Design.component';
 
 @NgModule ({
-	declarations: [AppComponent, Header_Component, About_Me_Component, Freelancer_Icon_Component, GitHub_Icon_Component, Instagram_Icon_Component, LinkedIn_Icon_Component, Top_Corner_Ornament_Component, Crown_Ornament_Component, Bottom_Corner_Ornament_Component, Footer_Component, Resume_Component],
+	declarations: [AppComponent, Header_Component, About_Me_Component, Freelancer_Icon_Component, GitHub_Icon_Component, Instagram_Icon_Component, LinkedIn_Icon_Component, Top_Corner_Ornament_Component, Crown_Ornament_Component, Bottom_Corner_Ornament_Component, Footer_Component, Resume_Component, UX_UI_Design_Component],
 	imports: [BrowserModule, AppRoutingModule],
 	providers: [],
 	bootstrap: [AppComponent]
