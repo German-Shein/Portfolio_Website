@@ -2,4 +2,49 @@
 {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.Ornament_Header_Container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ornament_Header_Horizontal-line
+{
+    background-color: #CFAB55;
+    height: 0.5rem;
+    width: 100%;
+}
+
+.Ornament_Header
+{
+    border: 0.5rem solid #CFAB55;
+    color: #FFFFFF;
+	font-family: 'metro_retro_nfregular', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.Case_Study_Container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.Case_Study_Text
+{
+    flex: 1 1 0;
+}
+
+.Case_Study_Image
+{
+    flex: 1 1 0;
 }
