@@ -36,7 +36,17 @@
 {
     display: flex;
     flex-direction: row;
+    padding: 4rem;
+}
+
+.Case_Study_Container:nth-child(odd)
+{
     flex-wrap: wrap-reverse;
+}
+
+.Case_Study_Container:nth-child(even)
+{
+    flex-wrap: wrap;
 }
 
 .Case_Study_Text
@@ -44,7 +54,13 @@
     flex: 1 1 0;
 }
 
-.Case_Study_Image
+.Case_Study_Image_Container
 {
     flex: 1 1 0;
+    margin-left: auto;
+}
+
+.Case_Study_Image
+{
+    height: 12rem;
 }
