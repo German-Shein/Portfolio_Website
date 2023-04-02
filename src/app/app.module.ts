@@ -15,11 +15,12 @@ import { Bottom_Corner_Ornament_Component } from './Ornaments/Bottom_Corner/Bott
 import { Footer_Component } from './Footer/Footer.component';
 import { Resume_Component } from './Views/Resume/Resume.component';
 import { UX_UI_Design_Component } from './Views/UX_UI_Design/UX_UI_Design.component';
-import { Hamburger_Menu_Icon_Component } from './Icons/Hamburger_Menu_Icon/Hamburger_Menu_Icon.component';
+import { SVG_Element_Component } from 'src/Components/SVG_Element/SVG_Element.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule ({
-	declarations: [AppComponent, Header_Component, About_Me_Component, Freelancer_Icon_Component, GitHub_Icon_Component, Hamburger_Menu_Icon_Component, Instagram_Icon_Component, LinkedIn_Icon_Component, Top_Corner_Ornament_Component, Crown_Ornament_Component, Bottom_Corner_Ornament_Component, Footer_Component, Resume_Component, UX_UI_Design_Component],
-	imports: [BrowserModule, AppRoutingModule],
+	declarations: [AppComponent, Header_Component, About_Me_Component, Freelancer_Icon_Component, GitHub_Icon_Component, Instagram_Icon_Component, LinkedIn_Icon_Component, Top_Corner_Ornament_Component, Crown_Ornament_Component, Bottom_Corner_Ornament_Component, Footer_Component, Resume_Component, UX_UI_Design_Component, SVG_Element_Component],
+	imports: [BrowserModule, AppRoutingModule, HttpClientModule],
 	providers: [],
 	bootstrap: [AppComponent]
 })
