@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Header_Component } from './Header/Header.component';
@@ -16,11 +15,10 @@ import { Footer_Component } from './Footer/Footer.component';
 import { Resume_Component } from './Views/Resume/Resume.component';
 import { UX_UI_Design_Component } from './Views/UX_UI_Design/UX_UI_Design.component';
 import { SVG_Element_Component } from 'src/Components/SVG_Element/SVG_Element.component';
-import { HttpClientModule } from '@angular/common/http';
 
 @NgModule ({
 	declarations: [AppComponent, Header_Component, About_Me_Component, Freelancer_Icon_Component, GitHub_Icon_Component, Instagram_Icon_Component, LinkedIn_Icon_Component, Top_Corner_Ornament_Component, Crown_Ornament_Component, Bottom_Corner_Ornament_Component, Footer_Component, Resume_Component, UX_UI_Design_Component, SVG_Element_Component],
-	imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+	imports: [BrowserModule, AppRoutingModule],
 	providers: [],
 	bootstrap: [AppComponent]
 })

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import SVG_Icons from '../assets/SVG_Icons.json';
 
 @Component({
 	selector: 'app-root',
