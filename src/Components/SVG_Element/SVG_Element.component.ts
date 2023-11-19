@@ -17,14 +17,13 @@ export class SVG_Element_Component implements OnInit
 	@Input () View_Box: string = '';
 	@Input () Width: string = '';
 
-	constructor (private Sanitizer: DomSanitizer) 
+	constructor (private DOM_Sanitizer: DomSanitizer) 
 	{
 		
 	}
 
 	ngOnInit (): void 
 	{
-		this.Inner_SVG = this.Sanitizer.bypassSecurityTrustHtml (this.Inner_SVG as string);
-		console.log (this.Inner_SVG);
+		this.Inner_SVG = this.DOM_Sanitizer.bypassSecurityTrustHtml (this.Inner_SVG as string);
 	}
 }
