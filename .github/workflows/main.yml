@@ -15,9 +15,18 @@ jobs:
         with:
           repository: German-Shein/Portfolio_Website
           path: ./
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19
+      - name: Install dependencies
+        run: npm install
+      - name: Create a production build
+        run: npm run build
       - name: Uploading latest changes
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
+          local-dir: dist/portfolio-website
           server: ${{ secrets.FTP_ENDPOINT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
