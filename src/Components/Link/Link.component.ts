@@ -11,4 +11,5 @@ export class Link_Component
 {
 	Link_Icon: string = SVG_Icons.Link_Icon;
 	@Input () Text: string = '';
+	@Input () URI: string = '';
 }

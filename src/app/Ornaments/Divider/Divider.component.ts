@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from "@angular/core";
 	styles: []
 })
 
-export class Crown_Ornament_Component implements OnInit
+export class Divider_Component implements OnInit
 {
 	@Input () Color: string = '';
 	@Input () Height: string = '';
