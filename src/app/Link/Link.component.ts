@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import SVG_Icons from '../../assets/SVG_Icons.json';
 
 @Component ({
 	selector: 'link-component',
@@ -6,7 +7,8 @@ import { Component } from '@angular/core';
 	styleUrls: ['./Link.component.scss']
 })
 
-export class Footer_Component
+export class Link_Component
 {
-
+	Link_Icon: string = SVG_Icons.Link_Icon;
+	@Input () Text: string = '';
 }
