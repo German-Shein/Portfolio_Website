@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import SVG_Images from 'src/assets/SVG_Images.json';
 
 @Component ({
 	selector: 'portfolio-component',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
 
 export class Portfolio_Component
 {
-    
+    al_waseet_Logo: string = SVG_Images.al_waseet_Logo;
 }
