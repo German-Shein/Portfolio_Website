@@ -10,4 +10,5 @@ import SVG_Images from 'src/assets/SVG_Images.json';
 export class Portfolio_Component
 {
     al_waseet_Logo: string = SVG_Images.al_waseet_Logo;
+	Sandwitches_Logo: string = SVG_Images.Sandwitches_Logo;
 }

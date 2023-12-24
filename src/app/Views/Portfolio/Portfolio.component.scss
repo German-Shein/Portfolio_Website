@@ -20,20 +20,20 @@
 	margin-bottom: 2rem;
 }
 
-.Portfolio_Exhibit_1
+.Portfolio_Exhibit
 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 	grid-gap: 4rem;
 }
 
-.Portfolio_Exhibit_1_Logo
+.Portfolio_Exhibit_Logo
 {
 	padding: 6rem 0;
 	height: 16rem;
 }
 
-.Portfolio_Exhibit_1_Image
+.Portfolio_Exhibit_Image
 {
 	max-width: 100%;
 }
@@ -49,4 +49,23 @@
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.Portfolio_Exhibit_2_Column
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.Portfolio_Exhibit_3_Column
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.Portfolio_Exhibit_7_Column
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
