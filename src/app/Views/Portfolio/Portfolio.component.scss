@@ -1,14 +1,37 @@
 .Portfolio_Section
 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 8rem 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 8rem 4rem;
 }
 
-.Portfolio_Exhibit_Grid
+.Portfolio_Exhibit_1
 {
-    display: grid;
-    gap: 4rem;
-    grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	grid-gap: 4rem;
+}
+
+.Portfolio_Exhibit_1_Logo
+{
+	height: 16rem;
+}
+
+.Portfolio_Exhibit_1_Image
+{
+	max-width: 100%;
+}
+
+.Portfolio_Exhibit_1_Column_1
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Portfolio_Exhibit_1_Column_2
+{
+	display: flex;
+	flex-direction: column;
 }
