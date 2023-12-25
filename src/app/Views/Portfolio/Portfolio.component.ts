@@ -10,6 +10,7 @@ import SVG_Images from 'src/assets/SVG_Images.json';
 export class Portfolio_Component
 {
     al_waseet_Logo: string = SVG_Images.al_waseet_Logo;
+	Reflexx_Logo: string = SVG_Images.Reflexx_Logo;
 	Sandwitches_Logo: string = SVG_Images.Sandwitches_Logo;
 	Space_Badge: string = SVG_Images.Space_Badge;
 	Video_Flux_Icon: string = SVG_Images.Video_Flux_Icon;
