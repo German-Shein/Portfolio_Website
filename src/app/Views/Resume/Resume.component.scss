@@ -9,3 +9,32 @@
     grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
     grid-gap: 2rem;
 }
+
+.Resume_Header
+{
+    color: #FFFFFF;
+	font-weight: bold;
+    font-size: 3rem;
+}
+
+.Skills
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Skills_Tags
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.LinkedIn_Invitation
+{
+    align-self: center;
+    text-align: center;
+}
