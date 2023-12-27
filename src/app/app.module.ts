@@ -14,9 +14,11 @@ import { SVG_Element_Component } from 'src/Components/SVG_Element/SVG_Element.co
 import { Link_Component } from 'src/Components/Link/Link.component';
 import { Divider_Component } from 'src/Ornaments/Divider/Divider.component';
 import { Tag_Component } from 'src/Components/Tag/Tag.component';
+import { Blogs_Component } from './Views/Blogs/Blogs.component';
+import { Button_Component } from 'src/Components/Button/Button.component';
 
 @NgModule ({
-	declarations: [AppComponent, Header_Component, About_Me_Component, Top_Corner_Ornament_Component, Crown_Ornament_Component, Bottom_Corner_Ornament_Component, Footer_Component, Link_Component, Resume_Component, Portfolio_Component, SVG_Element_Component, Divider_Component, Link_Component, Tag_Component],
+	declarations: [AppComponent, Header_Component, About_Me_Component, Top_Corner_Ornament_Component, Crown_Ornament_Component, Bottom_Corner_Ornament_Component, Footer_Component, Link_Component, Resume_Component, Portfolio_Component, SVG_Element_Component, Divider_Component, Link_Component, Tag_Component, Blogs_Component, Button_Component],
 	imports: [BrowserModule, AppRoutingModule],
 	providers: [],
 	bootstrap: [AppComponent]
