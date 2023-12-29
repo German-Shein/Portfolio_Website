@@ -2,3 +2,10 @@
 {
     padding: 4rem;
 }
+
+.Headline_Blog
+{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+	grid-gap: 4rem;
+}

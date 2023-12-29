@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+    color: #FFFFFF;
+	font-family: 'Semplicita', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+body
+{
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+}
+
+button
+{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px) 
+{
+	.Mobile_Header
+	{
+		display: none;
+	}
+}
+
+.Mobile_Header
+{
+    cursor: pointer;
+    margin: 2rem 4rem;
+}
+
+.Align_Self_Center
+{
+    align-self: center;
+}
+
+.Padding_Top_2rem
+{
+    padding-top: 2rem;
+}
+
+.Padding_Top_4rem
+{
+    padding-top: 4rem;
+}
+
+.Text_Align_Center
+{
+    text-align: center;
+}
+
+.Max_Width_100_Percent
+{
+    max-width: 100%;
+}
