@@ -9,3 +9,10 @@
 	grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
 	grid-gap: 4rem;
 }
+
+.Previous_Blogs
+{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	grid-gap: 8rem;
+}

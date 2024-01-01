@@ -1,0 +1,1 @@
+export const Format_Timestamp = (Timestamp: Date) => `${Timestamp.toLocaleString ('default', { month: 'long' })} ${Timestamp.getDate ()}, ${Timestamp.getFullYear ()}`

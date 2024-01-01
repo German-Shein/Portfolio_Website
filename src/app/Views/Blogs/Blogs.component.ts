@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 
 export class Blogs_Component
 {
-    
+	Dates: Date [] = [new Date ()]
 }
