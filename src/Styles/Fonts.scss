@@ -20,7 +20,7 @@
 {
     font-family: 'Semplicita';
     src: url('../assets/Fonts/Semplicita-Medium.woff2') format('woff2'), url('../assets/Fonts/Semplicita-Medium.woff') format('woff');
-    font-weight: 500;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -29,7 +29,7 @@
 {
     font-family: 'Semplicita';
     src: url('../assets/Fonts/Semplicita-MediumItalic.woff2') format('woff2'), url('../assets/Fonts/Semplicita-MediumItalic.woff') format('woff');
-    font-weight: 500;
+    font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
@@ -49,15 +49,6 @@
     src: url('../assets/Fonts/Semplicita-BoldItalic.woff2') format('woff2'), url('../assets/Fonts/Semplicita-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-    font-display: swap;
-}
-
-@font-face
-{
-    font-family: 'Semplicita';
-    src: url('../assets/Fonts/Semplicita-Ombra.woff2') format('woff2'), url('../assets/Fonts/Semplicita-Ombra.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
     font-display: swap;
 }
 

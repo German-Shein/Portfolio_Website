@@ -1,9 +1,5 @@
 .Button_Component
 {
-    background: linear-gradient(270deg, #CFAB55 0%, #CBA252 50%, #976118 100%);
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 1rem 3rem;
+    background: var(--Theme_Gradient);
+    color: var(--Text_Color);
 }

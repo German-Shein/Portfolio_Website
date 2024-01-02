@@ -1,22 +1,14 @@
-header
-{
-    position: relative;
-}
-
 .Navigation_Bar
 {
-    background: linear-gradient(270deg, #CFAB55 0%, #CBA252 50%, #976118 100%);
-    box-shadow: 0px 0px 24px 16px rgba(0, 0, 0, 0.75);
-    position: sticky;
-    width: 100%;
-    z-index: 2;
+    background: var(--Theme_Gradient);
+    box-shadow: 0px 0px 1.5rem 1rem rgba(0, 0, 0, 0.75);
 }
 
 .Navigation_Items
 {
 	margin: 0;
 	list-style-type: none;
-	display: flex;
+	display: none;
 	flex-direction: row;
 	gap: 2rem;
 	padding: 2rem 4rem;
@@ -34,9 +26,14 @@ header
 	justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) 
+@screen md
 {
 	.Navigation_Items
+	{
+		display: flex;
+	}
+
+	.Mobile_Navigation_Items
 	{
 		display: none;
 	}
@@ -44,10 +41,7 @@ header
 
 .Navigation_Item
 {
-	font-weight: bold;
-	color: #FFFFFF;
-    cursor: pointer;
-	font-size: 1.5rem;
+	color: var(--Text_Color);
 	transition: transform 375ms;
 }
 
@@ -59,45 +53,34 @@ header
 
 .Navigation_Item_URL
 {
-	color: #FFFFFF;
+	color: var(--Text_Color);
 	font-weight: bold;
 }
 
 .Navigation_Item_URL:link
 {
-	color: #FFFFFF;
+	color: var(--Text_Color);
 	font-weight: bold;
 	text-decoration-line: none;
 }
 
 .Navigation_Item_URL:visited
 {
-	color: #FFFFFF;
+	color: var(--Text_Color);
 	font-weight: bold;
 	text-decoration-line: none;
 }
 
 .Navigation_Item_URL:hover
 {
-	color: #FFFFFF;
+	color: var(--Text_Color);
 	font-weight: bold;
 	text-decoration-line: none;
 }
 
 .Navigation_Item_URL:active
 {
-	color: #FFFFFF;
+	color: var(--Text_Color);
 	font-weight: bold;
 	text-decoration-line: none;
-}
-
-.Ornaments
-{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    top: 5rem;
-	z-index: 1;
 }

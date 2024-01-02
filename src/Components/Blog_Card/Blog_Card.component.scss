@@ -1,27 +1,6 @@
 .Blog_Card
 {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: nowrap;
     border: 0.5rem solid transparent;
     border-image-slice: 1;
-    border-image-source: linear-gradient(270deg, #CFAB55 0%, #CBA252 50%, #976118 100%);
-    padding-bottom: 0.5rem;
-}
-
-.Blog_Card_Title
-{
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.Blog_Card_Date
-{
-    font-size: 2rem;
-    font-weight: lighter;
-    text-align: center;
+    border-image-source: var(--Theme_Gradient);
 }

@@ -1,7 +1,5 @@
 .About_Me_Section
 {
-	display: flex;
-	flex-direction: row;
 	background-blend-mode: multiply;
 	background-image: url('../../../assets/Images/German_Shein.png');
 	background-position: right;
@@ -11,57 +9,13 @@
 
 .Information_Section
 {
-	padding: 8rem;
-	flex: 1 1 0;
 	background: rgba(0, 0, 0, 0.2);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
 }
 
-.Information_Section_Header_1
-{
-	color: #FFFFFF;
-	font-weight: bold;
-    font-size: 3rem;
-}
-
-.Information_Section_Text
-{
-	color: #FFFFFF;
-	padding-top: 2rem;
-    font-size: 2rem;
-}
-
-.Information_Section_Header_2
-{
-	color: #FFFFFF;
-	font-weight: bold;
-	padding-top: 4rem;
-    font-size: 3rem;
-}
-
 .Social_Networks
 {
-	padding: 0;
-	padding-top: 2rem;
-	margin: 0;
 	list-style-type: none;
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
-	flex-wrap: wrap;
-}
-
-.Empty_Column
-{
-	flex: 1 1 0;
-}
-
-@media screen and (max-width: 640px) 
-{
-	.Empty_Column
-	{
-		display: none;
-	}
 }
