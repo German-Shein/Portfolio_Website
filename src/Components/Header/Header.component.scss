@@ -50,37 +50,3 @@
 	transform: scale(1.1);
 	text-decoration: underline;
 }
-
-.Navigation_Item_URL
-{
-	color: var(--Text_Color);
-	font-weight: bold;
-}
-
-.Navigation_Item_URL:link
-{
-	color: var(--Text_Color);
-	font-weight: bold;
-	text-decoration-line: none;
-}
-
-.Navigation_Item_URL:visited
-{
-	color: var(--Text_Color);
-	font-weight: bold;
-	text-decoration-line: none;
-}
-
-.Navigation_Item_URL:hover
-{
-	color: var(--Text_Color);
-	font-weight: bold;
-	text-decoration-line: none;
-}
-
-.Navigation_Item_URL:active
-{
-	color: var(--Text_Color);
-	font-weight: bold;
-	text-decoration-line: none;
-}
