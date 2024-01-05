@@ -4,41 +4,6 @@
     box-shadow: 0px 0px 1.5rem 1rem rgba(0, 0, 0, 0.75);
 }
 
-.Navigation_Items
-{
-	margin: 0;
-	list-style-type: none;
-	display: none;
-	flex-direction: row;
-	gap: 2rem;
-	padding: 2rem 4rem;
-	justify-content: space-between;
-}
-
-.Mobile_Navigation_Items
-{
-	margin: 0;
-	list-style-type: none;
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	padding: 2rem 4rem;
-	justify-content: space-between;
-}
-
-@screen md
-{
-	.Navigation_Items
-	{
-		display: flex;
-	}
-
-	.Mobile_Navigation_Items
-	{
-		display: none;
-	}
-}
-
 .Navigation_Item
 {
 	color: var(--Text_Color);

@@ -9,7 +9,7 @@ import SVG_Icons from '../../assets/SVG_Icons.json';
 
 export class Header_Component
 {
-	Classes = ['Navigation_Items'];
+	Classes = ['flex'];
     @Output () Select_Active_View_Event = new EventEmitter <string> ();
 	Hamburger_Menu_Icon: string = SVG_Icons.Hamburger_Menu_Icon;
 
@@ -20,15 +20,15 @@ export class Header_Component
 
 	Toggle_Hamburger_Menu (): void
 	{
-		if (this.Classes.includes ('Mobile_Navigation_Items'))
+		if (this.Classes.includes ('hidden'))
 		{
-			this.Classes = this.Classes.filter (Class => Class !== 'Mobile_Navigation_Items');
-			this.Classes.push ('Navigation_Items');
+			this.Classes = this.Classes.filter (Class => Class !== 'hidden');
+			this.Classes.push ('flex');
 		}
 		else
 		{
-			this.Classes = this.Classes.filter (Class => Class !== 'Navigation_Items');
-			this.Classes.push ('Mobile_Navigation_Items');
+			this.Classes = this.Classes.filter (Class => Class !== 'flex');
+			this.Classes.push ('hidden');
 		}
 	}
 }
