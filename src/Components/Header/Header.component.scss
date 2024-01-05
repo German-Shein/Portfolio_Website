@@ -1,0 +1,17 @@
+.Navigation_Bar
+{
+    background: var(--Theme_Gradient);
+    box-shadow: 0px 0px 1.5rem 1rem rgba(0, 0, 0, 0.75);
+}
+
+.Navigation_Item
+{
+	color: var(--Text_Color);
+	transition: transform 375ms;
+}
+
+.Navigation_Item:hover
+{
+	transform: scale(1.1);
+	text-decoration: underline;
+}

@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root 
+{
+	--Background_Color: #000000;
+	--Theme_Gradient: linear-gradient(270deg, #CFAB55 0%, #CBA252 50%, #976118 100%);
+	--Text_Color: #F7F7F7;
+}
+
+@screen sm
+{
+	:root
+	{
+		font-size: 60%;
+	}
+}
+@screen md
+{
+	:root
+	{
+		font-size: 75%;
+	}
+}
+@screen lg
+{
+	:root
+	{
+		font-size: 90%;
+	}
+}
+@screen xl
+{
+	:root
+	{
+		font-size: 120%;
+	}
+}
+@screen 2xl
+{
+	:root
+	{
+		font-size: 150%;
+	}
+}
+@screen 3xl
+{
+	:root
+	{
+		font-size: 200%;
+	}
+}
+
+*
+{
+    color: var(--Text_Color);
+	font-family: 'Semplicita', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+html, body
+{
+	background-color: var(--Background_Color);
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+}
+
+button, input[type="submit"], input[type="reset"] 
+{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.Grid_Template_Columns_16rem
+{
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.Grid_Template_Columns_24rem
+{
+	grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+}
+
+.Grid_Template_Columns_32rem
+{
+	grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+}
