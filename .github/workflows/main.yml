@@ -26,7 +26,7 @@ jobs:
       - name: Uploading latest changes
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          local-dir: dist/portfolio-website
+          local-dir: ./dist/portfolio-website/
           server: ${{ secrets.FTP_ENDPOINT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
