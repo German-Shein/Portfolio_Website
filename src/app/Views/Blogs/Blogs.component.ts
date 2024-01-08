@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Format_Timestamp } from 'src/Helpers/Format_Timestamp';
 
 @Component ({
 	selector: 'blogs-component',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
 
 export class Blogs_Component
 {
-	Dates: Date [] = [new Date ()]
+	Latest_Blog_Date: string = Format_Timestamp (new Date ("2024-01-08T10:03:28.728Z"));
+	Dates: Date [] = [new Date ("2024-01-08T10:03:28.728Z")]
 }
