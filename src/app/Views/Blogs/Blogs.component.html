@@ -1,22 +1,17 @@
-<div class="p-16">
-    <div class="grid gap-16 Grid_Template_Columns_24rem">
+<div class="px-16 py-32">
+    <div class="grid gap-16 Grid_Template_Columns_16rem">
         <div>
             <img alt="Image of Dubai" class="Max_Width_100_Percent" src="assets/Images/Blog_Image_1.webp" />
         </div>
-        <div>
-            <h1>Blog Title</h1>
-            <p>December 27, 2023</p>
-            <p>Made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words made up words...</p>
-            <button-component Text="Read more"></button-component>
+        <div class="flex flex-col">
+            <h1 class="text-5xl font-bold">Finally! My own portfolio website!</h1>
+            <p class="font-light text-[2rem] py-4">{{Latest_Blog_Date}}</p>
+            <p class="text-[2rem] pb-16">Words can't describe how happy I am to finally have a place to display all my work under one roof! For the past 10 years, it is not your CV that opens you doors, but your own brand, your own mark on the world. It was somewhat hard to put together the portfolio, when your best works are behind NDAs, act as internal tools and belong to the company you work for. But I did it anyway. And more will come!</p>
+            <button-component class="self-center md:self-start" Text="Read more"></button-component>
         </div>
     </div>
-    <h1>Previous Blogs</h1>
+    <h1 class="text-5xl font-bold text-center py-16">Previous Blogs</h1>
     <div class="grid gap-32 Grid_Template_Columns_16rem">
-        <blog-card-component Thumbnail="assets/Images/Blog_Image_1.webp" Title="Blog Title" [Timestamp]="Dates [0]"></blog-card-component>
-        <blog-card-component Thumbnail="assets/Images/Blog_Image_1.webp" Title="Blog Title" [Timestamp]="Dates [0]"></blog-card-component>
-        <blog-card-component Thumbnail="assets/Images/Blog_Image_1.webp" Title="Blog Title" [Timestamp]="Dates [0]"></blog-card-component>
-        <blog-card-component Thumbnail="assets/Images/Blog_Image_1.webp" Title="Blog Title" [Timestamp]="Dates [0]"></blog-card-component>
-        <blog-card-component Thumbnail="assets/Images/Blog_Image_1.webp" Title="Blog Title" [Timestamp]="Dates [0]"></blog-card-component>
-        <blog-card-component Thumbnail="assets/Images/Blog_Image_1.webp" Title="Blog Title" [Timestamp]="Dates [0]"></blog-card-component>
+        <blog-card-component Thumbnail="assets/Images/Blog_Image_1.webp" Title="Finally! My own portfolio website!" [Timestamp]="Dates [0]"></blog-card-component>
     </div>
 </div>

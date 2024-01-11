@@ -9,7 +9,7 @@ import SVG_Icons from '../../assets/SVG_Icons.json';
 
 export class Header_Component
 {
-	Classes = ['flex'];
+	Classes = ['hidden'];
     @Output () Select_Active_View_Event = new EventEmitter <string> ();
 	Hamburger_Menu_Icon: string = SVG_Icons.Hamburger_Menu_Icon;
 
