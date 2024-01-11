@@ -1,0 +1,13 @@
+<div class="pb-8">
+    <div *ngIf="Company_URI !== ''; then Company_with_a_Website else Company_without_a_Website"></div>
+    <ng-template #Company_with_a_Website><h3 class="text-[2rem] font-bold underline cursor-pointer"><a [attr.href]="Company_URI" rel="noreferrer" target="_blank">{{Company}}</a></h3></ng-template>
+    <ng-template #Company_without_a_Website><h3 class="text-[2rem] font-bold">{{Company}}</h3></ng-template>
+    <h4 class="text-[2rem] pb-2">{{Location}}</h4>
+    <p class="text-[2rem] pb-4">{{Start_Date}} &ndash; {{End_Date}}</p>
+    <p class="text-[2rem] pb-4"><em class="italic">{{Company_Description}}</em></p>
+    <p class="text-[2rem] pb-4"><strong class="font-bold">{{Position}}</strong></p>
+    <p class="text-[2rem] pb-2">{{Contribution}}</p>
+    <ul class="text-[2rem] list-disc pl-8" *ngFor="let Key_Skill_and_Contribution of Key_Skills_and_Contributions">
+        <li><strong class="font-bold">{{Key_Skill_and_Contribution.Skill}}:</strong> {{Key_Skill_and_Contribution.Contribution}}</li>
+    </ul>
+</div>
