@@ -1,0 +1,20 @@
+.Graphic_Design_Masterclass_Grid
+{
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+@screen sm
+{
+	.Graphic_Design_Masterclass_Grid
+	{
+        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+	}
+}
+
+@screen md
+{
+	.Graphic_Design_Masterclass_Grid
+	{
+        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+	}
+}
