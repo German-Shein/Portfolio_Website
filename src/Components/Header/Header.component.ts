@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
+import { Router } from '@angular/router';
 import SVG_Icons from '../../assets/SVG_Icons.json';
 
 @Component ({
@@ -12,6 +13,11 @@ export class Header_Component
 	Classes = ['hidden'];
     @Output () Select_Active_View_Event = new EventEmitter <string> ();
 	Hamburger_Menu_Icon: string = SVG_Icons.Hamburger_Menu_Icon;
+
+	constructor (public Website_Router: Router)
+	{
+		
+	}
 
 	Select_Active_View (View: string): void
 	{
